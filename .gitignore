@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.mcp-runtime/
+designs/
+exports/
+validation/
+examples/smoke-design.svg
+examples/smoke-design.png
+examples/smoke-validation.png
