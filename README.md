@@ -24,7 +24,7 @@ python .\scripts\smoke_test.py
 Run the MCP server:
 
 ```powershell
-python -m inkscape_mcp_server --workspace "C:\Users\Sandra\OneDrive\Desktop\git-repos\inkscape-mcp-server" --inkscape "C:\Program Files\Inkscape\bin\inkscape.exe"
+python -m inkscape_mcp_server --workspace "C:\Users\path\inkscape-mcp-server" --inkscape "C:\Program Files\Inkscape\bin\inkscape.exe"
 ```
 
 Example MCP client config:
@@ -38,7 +38,7 @@ Example MCP client config:
         "-m",
         "inkscape_mcp_server",
         "--workspace",
-        "C:\\Users\\Sandra\\OneDrive\\Desktop\\git-repos\\inkscape-mcp-server",
+        "C:\\Users\\path\\inkscape-mcp-server",
         "--inkscape",
         "C:\\Program Files\\Inkscape\\bin\\inkscape.exe"
       ],
